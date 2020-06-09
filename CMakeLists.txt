@@ -101,7 +101,7 @@ ELSE()
   SET(EMBREE_LIB_TYPE SHARED)
 ENDIF()
 
-OPTION(EMBREE_ISPC_SUPPORT "Build Embree with support for ISPC applications." ON)
+OPTION(EMBREE_ISPC_SUPPORT "Build Embree with support for ISPC applications." OFF)
 OPTION(EMBREE_TUTORIALS    "Enable to build Embree tutorials" ON)
 SET(EMBREE_API_NAMESPACE "" CACHE STRING "C++ namespace to put API symbols into.")
 SET(EMBREE_LIBRARY_NAME  "embree${EMBREE_VERSION_MAJOR}" CACHE STRING "Name of the embree library file (default is embree${EMBREE_VERSION_MAJOR})")
